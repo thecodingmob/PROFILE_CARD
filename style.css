@@ -30,14 +30,14 @@ body {
   background-repeat: no-repeat, no-repeat;
   background-position:
     left -270px top -650px,
-    right -200px top 400px;
+    right -200px top 410px;
   height: 100%;
   z-index: -100;
 }
 article {
   background-image: url("images/bg-pattern-card.svg");
   background-color: white;
-  width: 330px;
+  width: 338px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -52,14 +52,14 @@ section.head {
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid var(--gray-100);
-  padding: 6em 0 1em 0;
+  padding: 6em 0 1.4em 0;
 }
 section.head img {
   border-radius: 50%;
   border: 5px solid white;
-  width: 100px;
+  width: 120px;
   height: auto;
-  margin-top: -0.3em;
+  margin-top: -1em;
 }
 section.head h1 {
   font-size: 18px;
@@ -75,7 +75,7 @@ section.head p {
   color: var(--gray-500);
 }
 section.foot {
-  padding: 1.4em 0 1.5em 0;
+  padding: 1.7em 0 1.7em 0;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
